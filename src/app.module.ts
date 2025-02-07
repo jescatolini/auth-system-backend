@@ -6,7 +6,7 @@ import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/nest-auth'), 
+    MongooseModule.forRoot('mongodb+srv://escatolini:example@cluster0.ruyql.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'), 
     AuthModule, 
     UserModule
   ],
